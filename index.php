@@ -13,6 +13,7 @@ $body .= "<input type='text' name='pagenum' />\n";
 $body .= "<input type='submit' value='Go to page' />\n";
 $body .= "</form>\n";
 
+$body .= mklink ("page 362", "page.php?pagenum=362");
 
 pfinish ();
 
