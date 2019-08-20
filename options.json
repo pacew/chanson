@@ -1,4 +1,10 @@
 {
-  "site_type": "php",
-  "db": "postgres"
+    "site_type": "php",
+    "db": "postgres",
+
+    "l1.pacew.org": {
+	"chanson-production": {
+	    "external_name": "chanson.pacew.org"
+	}
+    }
 }
